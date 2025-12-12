@@ -5,20 +5,20 @@ from os import environ
 SESSION = environ.get('SESSION', 'TechVJBot')
 
 # Your Telegram Account Api Id And Api Hash
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '37829347'))
+API_HASH = environ.get('API_HASH', '8dbdb801cb6615767cb984c31a738006')
 
 # Bot Token, This Is Main Bot
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Admin Telegram Account Id For Withdraw Notification Or Anything Else
-ADMIN = int(environ.get('ADMIN', ''))
+ADMIN = int(environ.get('ADMIN', '5165530398'))
 
 # Back Up Bot Token For Fetching Message When Floodwait Comes
 BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "")
 
 # Log Channel, In This Channel Your All File Stored.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002936229320'))
 
 # Mongodb Database For User Link Click Count Etc Data Store.
 MONGODB_URI = environ.get("MONGODB_URI", "")
